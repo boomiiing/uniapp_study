@@ -19,13 +19,42 @@
 			{
 				"navigationBarTitleText" : "这是demo2"
 			}
+		},
+		{
+			"path" : "pages/requestDemo/requestDemo",
+			"style" : 
+			{
+				"navigationBarTitleText" : "动物",
+				"enablePullDownRefresh": true
+			}
 		}
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"navigationBarBackgroundColor": "#ccc",
+		"backgroundColor": "#060",
+		"enablePullDownRefresh": true
+	},
+	"tabBar": {
+		"color": "#fff",
+		"selectedColor": "#4cd964",
+		"backgroundColor": "#ccc",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页"
+			},
+			{
+				"pagePath":"pages/demo1/demo1",
+				"text": "分类"
+			},
+			{
+				"pagePath":"pages/requestDemo/requestDemo",
+				"text": "动物"
+			}
+		]
 	},
 	"uniIdRouter": {}
 }
